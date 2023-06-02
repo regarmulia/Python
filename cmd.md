@@ -17,3 +17,12 @@ monday.drop(['Unnamed: 0', 'Flow ID', 'Source IP', 'Destination IP', 'Timestamp'
 ```
 monday_new = monday[np.isfinite(monday).all(1)]
 ```
+
+```
+X1 = friday_new.iloc[:, 0:83]
+y1 = friday_new.iloc[:, 79:80]
+```
+
+```
+X1.Label.value_counts()
+```
