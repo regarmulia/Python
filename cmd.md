@@ -25,4 +25,5 @@ y1 = friday_new.iloc[:, 79:80]
 
 ```
 X1.Label.value_counts()
+y1.value_counts()
 ```
