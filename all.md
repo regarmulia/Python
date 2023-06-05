@@ -40,3 +40,6 @@ y1.value_counts()
 c1 = X1.loc[y1['Label'] == 0]
 c2 = y1.loc[y1['Label'] == 0]
 ```
+
+# describe
+house.describe()
